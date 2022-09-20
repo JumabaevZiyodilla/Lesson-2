@@ -7,8 +7,8 @@ var hotel = 10900 * 250;
 var museum = 12272 * 120;
 var allPay = ticket + hotel + museum;
 if(alisher >= allPay){
-    console.log("Oq yo'l");
-    wrapper.innerText = "oq yo'l";
+    console.log("Oq yo'l, Alisher");
+    wrapper.innerText = "Oq yo'l, Alisher";
 }
 else{
     console.log("Alisher, ozgina sabr qilish kerak bo'lar ekan");
